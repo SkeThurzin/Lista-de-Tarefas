@@ -56,3 +56,21 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+h1 {
+  width: 14ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.input-tarefa {
+  font-family: inherit;
+}
+
